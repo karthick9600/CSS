@@ -1,0 +1,88 @@
+   /*<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" >
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="regform">
+      <h2>Sign Up</h2>
+      <form action="">
+        <div class="input">
+          <label class="textlabel">User Name</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div class="input">
+          <label class="textlabel">Email</label>
+          <input type="text" id="Email" name="email" />
+        </div>
+        <div class="input">
+          <label class="textlabel">Password</label>
+          <input type="passord" id="pwd" name="password" />
+        </div>
+        <div class="radio">
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">Male</label>
+
+          <input type="radio" name="gender" id="Female" value="Female" />
+          <label for="Female">Female</label>
+        </div>
+        <div class="btn">
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    </div>
+  </body>*/
+  
+  
+  body{
+    background: url(https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.regform{
+    width:500px;
+    margin:250px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding:10px;
+    border-radius: 10px;
+}
+.regform h2{
+    color: #e8b4b8;
+    text-align: center;
+}
+.regform .textlabel{
+    display: block;
+}
+.input input{
+    width: 97%;
+    font-size: 1.2em;
+    border: 1px solid green;
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+
+}
+input:focus{
+    background-color: rgba(48, 155, 155, 0.589) ;
+}
+.btn{
+
+    text-align: center;
+}
+button{
+    background-color: rgb(255, 166, 0);
+    font-size: 20px;
+    color:white;
+    padding:10px 20px;
+    border: solid 2px rgba(6, 6, 252, 0.753);
+    border-radius: 10px;
+}
+.radio input{
+    accent-color: orange;
+    transform:scale(1.5);
+    -ms-transform:scale(1.5) ;
+   -webkit-transform: scale(1.5);
+}
