@@ -1,0 +1,53 @@
+ 
+ /*<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="position.css">
+    <title>Document</title>
+</head>
+<body>
+   
+   
+    <div>
+        <h1>Beatiful Nature</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, aliquid eaque. Tempore consequatur laboriosam, quidem natus perferendis cumque? Asperiores, esse inventore ea voluptate eaque soluta aperiam dolores temporibus sint laudantium impedit quasi maiores animi reprehenderit, cum consequatur. Odio deserunt illo rerum et ab voluptatibus impedit voluptas repellat. Deleniti dicta autem explicabo impedit ex cumque quod, fugit perferendis corrupti fugiat dolorem expedita quaerat totam repellendus, omnis nihil.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, est? Culpa veritatis commodi ipsa alias excepturi itaque mollitia veniam facilis quidem. Ad cumque, vitae nostrum ducimus fuga, rerum itaque aperiam sapiente, illo molestiae beatae. Ipsum dolor doloremque repudiandae neque porro, id ea, suscipit architecto ducimus consectetur necessitatibus sed, molestiae minima iusto ut non harum ratione!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis omnis magni magnam! Maxime blanditiis optio consequatur autem accusantium. Animi rem, iste nemo numquam illo perspiciatis voluptate aspernatur minus sapiente consequuntur, ratione facilis aperiam, dolore eum assumenda deserunt quis inventore ducimus mollitia! Pariatur consequatur facere adipisci eos provident voluptates nesciunt suscipit molestias deleniti labore dolore quia nemo aliquid eligendi, esse non autem, laboriosam nihil? Nesciunt cupiditate rem quasi accusantium asperiores magnam. Quos voluptatibus quam expedita aperiam! Totam tempora quasi voluptatum suscipit consequuntur? Laudantium quam repudiandae similique debitis vitae.</p>
+    <div class="bluebox">
+        <div class="yellowbox"></div>
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, aliquid eaque. Tempore consequatur laboriosam, quidem natus perferendis cumque? Asperiores, esse inventore ea voluptate eaque soluta aperiam dolores temporibus sint laudantium impedit quasi maiores animi reprehenderit, cum consequatur. Odio deserunt illo rerum et ab voluptatibus impedit voluptas repellat. Deleniti dicta autem explicabo impedit ex cumque quod, fugit perferendis corrupti fugiat dolorem expedita quaerat totam repellendus, omnis nihil.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, est? Culpa veritatis commodi ipsa alias excepturi itaque mollitia veniam facilis quidem. Ad cumque, vitae nostrum ducimus fuga, rerum itaque aperiam sapiente, illo molestiae beatae. Ipsum dolor doloremque repudiandae neque porro, id ea, suscipit architecto ducimus consectetur necessitatibus sed, molestiae minima iusto ut non harum ratione!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis omnis magni magnam! Maxime blanditiis optio consequatur autem accusantium. Animi rem, iste nemo numquam illo perspiciatis voluptate aspernatur minus sapiente consequuntur, ratione facilis aperiam, dolore eum assumenda deserunt quis inventore ducimus mollitia! Pariatur consequatur facere adipisci eos provident voluptates nesciunt suscipit molestias deleniti labore dolore quia nemo aliquid eligendi, esse non autem, laboriosam nihil? Nesciunt cupiditate rem quasi accusantium asperiores magnam. Quos voluptatibus quam expedita aperiam! Totam tempora quasi voluptatum suscipit consequuntur? Laudantium quam repudiandae similique debitis vitae.</p>
+   
+
+    </div>
+    
+</body>
+</html>
+  */
+ .bluebox{
+    background-color: steelblue;
+    width:300px;
+    height: 300px;
+    margin-top:50px;
+    position:sticky;
+    top:10px;
+    bottom:10px;
+
+}
+.yellowbox{
+    background: yellow;
+    width:100px;
+    height:100px;
+   /*position: relative;*/
+    /*left: 10px;
+    top: 25px;
+    bottom: 200px;
+    left:94px;*/
+    position: absolute;
+     top:100px;
+    left:100px;
+
+
+}
