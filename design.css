@@ -1,0 +1,45 @@
+/*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+    <div class="container">
+        <p class="para1"> One Lorem   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nihil ratione velit fuga deleniti consectetur provident incidunt quibusdam, eum cupiditate accusamus vitae soluta.ipsum dolor sit amet consectetur, adipisicing elit. Velit perspiciatis optio repudiandae atque architecto earum.</p>
+        <p class="para2"> Two Lorem  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque ex nostrum eius iure, accusantium obcaecati labore cum quis dolorem, nobis maxime temporibus totam.ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nisi alias?</p>
+        <p class="para3"> Three Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates doloremque facere odio harum magnam, ad nisi neque aliquam provident dolorum. ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quo expedita deleniti </p>
+       
+    </div>
+    
+</body>
+</html>*/
+
+
+
+.para1{
+    background-color: rgb(18, 125, 219);
+}
+.para2{
+    background-color: rgb(216, 135, 29);
+
+}
+.para3{
+    background-color: aqua;
+}
+@media(min-width:801px){
+    .container p{
+        width: 30%;
+        float:left;
+        padding: 10px;
+
+    }
+}
+ /*.container p{
+   width: 100%;
+}*/
+.para3{
+    background-color: rgb(116, 15, 209);
+}
