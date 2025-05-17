@@ -1,0 +1,83 @@
+/* <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="flex.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="outerbox">
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+      <div class="box box4"></div>
+    </div>
+    <div class="container">
+      <p class="para1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum a
+        quisquam corrupti?
+      </p>
+
+      <p class="para2">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+        facilis corporis debitis.
+      </p>
+
+      <p class="para3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+        quibusdam incidunt suscipit!
+      </p>
+    </div>
+  </body>
+</html>  */ 
+.outerbox{
+
+  background-color: rgb(240, 240, 7);
+   min-height: 400px; 
+   display: flex;
+     justify-content: center;
+    align-items: center;  
+}
+.box{
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  border: 2px solid whitesmoke;
+}
+.box1{
+/* flex-shrink: 0; */ 
+flex: 1 2 0 px;
+  
+}
+.box2{
+   /* flex-grow:2;
+ flex-basis: 0; */ 
+ flex-shrink: 2;
+}
+.box3{
+  /* flex-grow: 1;*/
+}
+
+
+.container{
+   display:flex ;
+  
+}
+p{
+  padding: 10px;
+}
+.para1 {
+  background-color: aqua;
+  flex: 1;
+  order: 1;
+}
+.para2{
+  background-color: rgba(128, 48, 48, 0.5);
+  flex: 1;
+  order: 3;
+}
+.para3{
+  background-color: rgba(128, 99, 45, 0.219);
+  flex: 2;
+  order: 2;
+
+}
