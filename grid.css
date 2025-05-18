@@ -1,0 +1,118 @@
+   /*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="layout">
+        <div class="header">Header</div>
+        <div class="sidebar1">Sidebar1</div>
+        <div class="main">  Main Content</div>
+        <div class="sidebar2"> sidebar2</div>
+        <div class="Footer"> Footer</div>
+    
+    
+     </div>
+    <div class="outerbox">
+        
+        <div class="box  box1"> 1</div>
+        <div class="box  box2">2</div>
+        <div class="box  box3">3</div>
+        <div class="box  box4">4</div>
+        <div class="box box5">5</div>
+        <div class="box box6">6</div>
+        <div class="box  box7">7</div>
+   
+
+    </div>
+<div class="container">
+  <div class="para1"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus eligendi voluptas qui optio dolorum!</div>
+  <div class="para1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, aliquam autem? Quasi, illum ea!</div>
+  <div class="para1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reiciendis nobis quam. Consequatur!</div>
+  <div class="para1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo facere commodi suscipit architecto?</div>
+  <div class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam numquam cum ullam excepturi. Placeat.</div>
+  <div class="para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum est expedita provident veritatis numquam!</div>
+  <div class="para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum est expedita provident veritatis numquam!</div>
+</div>
+
+    
+</body>
+</html> */
+
+.outerbox{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit,minmax(200px,1fr));/* repeat(3,1fr); */
+    gap: 20px;
+    grid-template-rows: 100px 200px 100px; 
+    grid-auto-rows: 200px;
+   
+} 
+.layout{
+    display: grid;
+     grid-template-columns:  repeat(5,1fr)/* 1fr 1fr 1fr */;
+     grid-template-rows:20vh 80vh 10vh;
+    
+     grid-template-areas: 
+     "h h  h h h"
+     "sb1 m m m sb2"
+     "F   F F F F";
+}
+.header{
+    grid-area: h;
+}
+.sidebar1{
+    grid-area: sb1;
+
+}
+.main{
+    grid-area: m;
+}
+.sidebar2{
+    grid-area: sb2;
+}
+.Footer{
+    grid-area: F;
+}
+.layout div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgb(236, 137, 7);
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+  
+ .box{
+    
+    background-color: green;
+    color: white;
+    font-size: 4rem;
+    display: grid;
+    justify-content:center;
+    align-items: center;
+  
+   
+ } 
+ .box1{
+  /*   grid-column-start:1;
+    grid-column-end:3;
+ */
+ grid-column: span 3  /*1/4 */;
+ }
+ .box2{
+    grid-row: span 2;
+ }
+
+ 
+  
+  
+
+.para1{
+    padding:1rem;
+    background-color: steelblue;
+    color: whitesmoke;
+} 
