@@ -1,0 +1,33 @@
+  /*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="transition.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="square"></div>
+    
+</body>
+</html>*/
+
+.square{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    transition-duration:3s;
+    transition-property:all /*background-color*/;
+    transition-timing-function: cubic-bezier(0.59,-0.35, 0.88, 1.08)/* linear ,ease-in-out*/;
+    transition-delay: 2s;
+    transition: background-color 3s  3s linear;
+}
+.square:hover{
+   /* background-color: blueviolet;
+    width:600px;*/
+    /*transform: rotatey(45deg);*/
+    transform: scaley(2) ; /*translateY(20)*/
+
+}
+
+
