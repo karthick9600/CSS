@@ -1,0 +1,309 @@
+/*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="App.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" href="img.ico">
+    <meta name="description" content="The best Veg and Non-veg Restaurant">
+    <title>Family Style Restaurant in Chennai</title>
+</head>
+<body>
+    <div class="landing">
+        <header>
+            <a href="index.html" id="logo"> <h2><i class="fa-solid fa-utensils"></i></h2>Family Style Restaurant</a>
+            <nav>
+                <a href="#menuheading"><h2><i class="fa-solid fa-bars"></i></h2>Menu</a>
+                <a href="#locheading"><h2><i class="fa-solid fa-location-dot"></i></h2>location</a>
+            </nav>
+        </header>
+  
+    <div class="maintext">
+        <div class="tagline1">
+            Finest Treat for Your Taste Buds
+        </div>
+        <div class="tagline2">
+            Freshest Ingrediants Guranteed
+        </div>
+        <div  class="callus">
+            Call us @ +91 1234567890 
+        </div>
+        <button>Order Online</button>
+
+
+    </div>
+
+    
+</div  > 
+
+<h2 id="menuheading">Menu</h2>
+<div class="menu">
+    <div class="starters">
+        <table>
+            <th colspan="2">Straters</th>
+            <tr>
+                <td>Panner Tikka</td>
+                <td>&#8377 180</td>
+            </tr>
+            <tr>
+                <td>Gobi</td>
+                <td> &#8377 165</td>
+            </tr>
+            <tr>
+                <td>Veg Pakoda</td>
+                <td>&#8377 160</td>
+            </tr>
+            <tr>
+                <td>Mirchi Bajji</td>
+                <td>&#8377 155</td>
+            </tr>
+
+        </table>
+    </div>
+    
+        <div class="main course">
+            <table>
+                <th col span="2">Main course</th>
+                <tr>
+                    <td>Briyani</td>
+                    <td>&#8377 400</td>
+                </tr>
+                <tr>
+                    <td>Veg pulav</td>
+                    <td>&#8377 370</td>
+                </tr>
+                <tr>
+                    <td>Veg Briyani</td>
+                    <td>&#8377 380</td>
+
+                </tr>
+                <tr>
+                    <td>Mushroom Briyani</td>
+                    <td>&#8377 385</td>
+                </tr>
+
+            </table>
+        </div>
+    </table>
+
+<div class="chats">
+    <table>
+        <th col span="2">Chats</th>
+        <tr>
+            <td>Samosa</td>
+            <td>&#8377 35</td>
+        </tr>
+        <tr>
+            <td>Pannir Poori</td>
+            <td>&#8377 50</td>
+        </tr>
+        <tr>
+            <td>Masala Poori</td>
+            <td>&#8377 60</td>
+        </tr>
+        <tr>
+            <td>Pav Baaji</td>
+            <td>&#8377 50</td>
+        </tr>
+    </table>
+    
+</div>
+</div>
+<h2 id="locheading">Location</h2>
+<div class="location">
+    <div class="annanager">
+        <h2>Anna Nagar</h2>
+        <address>
+            15,10th Main Road,<br>Anna Nagar,<br>Chennai-600102
+        </address>
+    </div>
+    <div class="velachery">
+        <h2>Velachery</h2>
+        <address>
+            5,3rd cross Road,<br>vijaya nagar,<br>velachery,<br>chennai-600042
+
+        </address>
+
+    </div>
+    <div class="Tambaram">
+        <h2>Tambaram</h2>
+        <address>
+            145,Mit Road,<br>Tambaram,<br>chennai-600045
+        </address>
+    </div>
+
+
+    <br><br>
+    <footer>
+        <div id="copyright">  &#169 copyright  Family Restaurant</div>
+    
+       </footer>
+
+ 
+    <div class="icon"><i class="fa-brands fa-facebook" style="font-size: 3rem;"></i></div>
+    <div class="icon"><i class="fa-brands fa-instagram" style="font-size: 3rem;"></i> </div>
+    <div class="icon"><i class="fa-brands fa-telegram" style="font-size: 3rem;"></i></div>
+    
+  
+</div>
+</body>
+</html>*/
+
+
+:root{
+    --red:#fa0623;
+    --brown:#D2665A;
+    --sandle:#F2B28C;
+    --white:#F6DED8;
+
+}
+body,h2{
+    margin:o;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url(ss.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--white);
+}
+header a{
+    text-decoration: none;
+    color: var(--red);
+   min-width: 120px;
+
+
+}
+header{
+   
+    display:flex;
+    flex-wrap:  wrap;
+    row-gap: 1em;
+}
+#logo{
+    flex:3;
+    font-size: 1.25em;
+    min-width: 120px;
+}
+nav{
+    flex: 2;
+    display: flex;
+}
+nav a{
+    flex:1;
+    min-width: 20px;
+}
+nav a:hover{
+    color: var(--sandle);
+
+}
+header h2 i,nav a i{
+    margin-right:.5em;
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tagline1{
+    color:var(--brown);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline2{
+    color:var(--white);
+}
+.tagline3{
+    color:var(--sandle);
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width:20vh;
+    margin-top: 2em;
+    border-radius:10px;
+    padding: .5em;
+    background-color: var(--sandle);
+    color: var(--white);
+    border: 5px solid var(--sandle);
+}
+.menu{
+    display:grid;
+    grid-template-columns: repeat(auto- fit,minmax(20px,1fr)); /*1fr 1fr 1fr*/
+    background: linear-gradient( to right,rgb(100,100,100),rgb(53,52,52)); 
+    color:var(--white)  
+}
+#menuheading,#locheading{
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    font-size: 2.5em;
+    color:var(--red);
+    display: flex;
+    justify-content: center;
+}
+h2{
+    margin: 0;
+}
+.menu th{
+    color: var(--sandle);
+
+}
+table{
+    width:100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top:.8em;
+
+}
+.menu td:nth-child(1){
+    flex:1;
+    justify-self:left ;
+}
+.menu td:nth-child(2){
+    justify-self:right;
+}
+.location{
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    color:var(--white);
+    display: flex;
+    flex-wrap: wrap;
+}
+.location h2{
+    color:var(--brown);
+    margin-bottom:.8em ;
+
+}
+.location div{
+    flex:1;
+    padding: 1em;
+    min-width: 220px;
+    min-width: 220px;
+}
+
+
+
+footer{
+    background-color: rgb(85, 93, 89);
+    color: var(--white);
+    padding: .25em 1em;
+}
+div .icon i {
+    position: relative;
+    display: block;
+    width: 59px;
+    height: 59px;
+    border: 2px solid rgb(128, 0, 255);
+    border-radius: 50%;
+    background-color: #300b01;
+    text-align: center;
+    transition: .6s;
+    box-shadow: #e805c644;
+  }
