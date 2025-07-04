@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <!-----  this is internal css
+  <style type="text/css">
+   h3{
+      color: blue;
+      text-decoration: underline;
+    }
+    p{
+      color: brown;
+    }-->
+    
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Page</title>
+
+</head>
+<body>
+  <h1>Karthick</h1>
+  <h2 style="color:green;text-decoration:underline;">heading2</h2>
+  <h3> heading3</h3>
+  <h4> heading4</h4>
+  <h5>heading5</h5>
+  <h6>heading6</h6> 
+  <p></p>
+  
+<p><i>This</i> is a  <b> paragraph</b> </p>
+
+<div>
+  <p> Lorem ipsum dolor sit. <a href="o.html">no</a></p>
+</div>
+
+
+  <p>  a <sup>2</sup></p>
+  <p>h <sub>2</sub>0</p>
+  <p  id="Softdev">hello <br>
+      I am Software  developer
+  </p>
+  <p class="greentext">Lorem ipsum dolor sit amet.</p>
+
+
+</body>
+</html>
+<!---h1{
+    color: orange;   /*type selector*/
+}
+h1{
+    color: rgb(138, 23, 23);/* specific rule more accessable*/
+}
+*{
+    color: aqua; /*Universal selctor*/
+}
+#Softdev{
+
+    color: bisque;  /*id selector*/
+}
+.greentext{
+    color: rgb(255, 210, 127);  /*class Selector*/
+
+}
+div>p{
+    color: blueviolet;  /* child  Selector*/
+}
+p>a{
+    color:brown  /* desendant Selector*/
+}
+h1~h4{
+    color: pink;  /*Sibling selector*/
+}
+h1+h2{
+    color: blueviolet;   /*adjacent Selector*/
+}-->
