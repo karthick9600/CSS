@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div >
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li> Services</li>
+      </ul>
+    </div>
+    <h2>Logic First</h2>
+    <div class="paradiv">
+    <p id="para1" class="myclass">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ad iste dolore eos numquam.</p>
+  </div>
+    <a href="">View Course</a>
+    <a href="">https://moz.com/</a>
+  </body>
+</html>
+
+
+<!--
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  letter-spacing: 0.5em;
+  word-spacing: 0.3em;
+  text-align: justify;
+}
+p {
+  color: blueviolet;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  font-style: italic;
+  font-stretch: extra-condensed;
+  text-decoration: rgb(58, 170, 58);
+  text-align: justify;
+  vertical-align: bottom;
+  text-indent: 50px;
+  text-shadow: 6px 2px 1px gray;
+  border: 1px solid rgb(212, 72, 72);
+  width: 50%;
+  height: 250px;
+  background-color: beige;
+  overflow: scroll;
+  border-top-width: 7px;
+  padding: 5px;
+  margin: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 10px 30px;
+
+}
+p:first-letter{
+  font-size: 2em;
+}
+a:visited{
+    color:brown;
+}
+a:link{
+    color: orangered;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
+a:active{
+    color: blue;
+}
+
+a:focus{
+    color: aqua;
+}
+p[id]{
+    color: brown;
+}
+p[class~="myclass"]{
+    color: chartreuse;
+}
+/* p[class^="m"]    this prefix selection
+and suffix it used for  a $ 
+and  *  this is sub string  any letter  of select */
+a{
+    border: 1px solid black;
+}
+.paradiv{
+    max-width: 500px;
+    min-width: 700px
+    ;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+li{
+    display: inline;
+    margin: 5px;
+}
+
+-->
+
+
+
