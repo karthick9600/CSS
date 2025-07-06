@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla est eum doloribus dignissimos consectetur. Libero.</p>
+        <p class="para2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem laborum veniam excepturi eligendi illum nemo.</p>
+        <p class="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam blanditiis neque qui esse nostrum inventore.</p>
+
+    </div>
+    
+</body>
+</html>
+
+<!--
+
+.para1{
+    
+     background-color: aqua;
+     margin-left: 10px;
+}
+.para2{
+ background-color: darksalmon;
+ margin-left: 2px;
+}
+.para3{
+ background-color:  rgb(177, 154, 63);
+ margin-left: 2px;
+}
+@media (min-width:801px){
+    .container p{
+        width: 30%;
+        float: left;
+        padding: 10px;
+    }
+}
+
+@media print{
+    body{
+        background-color: none;
+    }
+}
+
+-->
