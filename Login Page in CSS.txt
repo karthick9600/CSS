@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="regform">
+      <h3>SingUp</h3>
+        <form action="">
+        <div class="input">
+        <label class="textlabel" for="Name">User Name</label>
+        <input type="text" id="name" name="name">
+        </div>
+        <div class="input">
+            <label  class="textlabel" for="email" >Email</label>
+            <input type="Email" id="Email" name="Email">
+        </div>
+        <div class="input"> 
+            <label class="textlabel" for="password" >PassWord</label>
+            <input type="password" id="Password" name="Password">
+        </div>
+        <div class="radio">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="Female">Female</label>
+        </div>
+        <div class="btn">
+           <button type="submit"> Regiter</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
+
+
+<!---
+body{
+   background-color: bisque;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /*  display:Flex;   This means Responsive web Design
+
+
+}
+.regform{
+    width: 500px;
+    margin: 450px;
+    padding: 10px 20px 30px;
+    background-color: rgb(80, 78, 78);
+    color: white;
+    font-size: 30px;
+    border-radius: 8px;
+   
+}
+.regform h3{
+    text-align: center;
+    color: orange;
+}
+
+.regform .textlabel{
+    display: block;
+}
+  
+.input input{
+    width: 100%;
+    font-size: 1.5em;
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding: 5px  10px;
+    box-sizing: border-box;
+    margin: 5px  1px 15px;
+
+
+}
+input:focus{
+    background-color: aquamarine;
+}
+.btn{
+    text-align: center;
+}
+button{
+    text-align: center;
+    background-color:aqua;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: 1px solid blue;
+}
+.radio input{
+    accent-color:rgb(255, 0, 128) ;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}-->
