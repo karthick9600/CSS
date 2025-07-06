@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="col">
+        <p>1 ipsum dolor sit amet consectetur adipisicing elit. Omnis molestias aut rem earum, quibusdam hic in iusto aliquam quos temporibus ab labore, saepe molestiae obcaecati eveniet ullam accusantium eaque asperiores rerum minima architecto magni! Autem voluptatem expedita exercitationem consequuntur sed!</p>
+        <p>2Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique placeat commodi velit ad nesciunt consequatur magnam accusamus exercitationem! Sed, accusantium rerum illum ab, quis blanditiis cumque, at nobis ut distinctio soluta. Obcaecati quibusdam ad a ex veritatis odit, dolorem qui.</p>
+        <p>3Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus cum at necessitatibus. Mollitia rerum fugiat dolor alias inventore quasi odio dolores odit accusamus modi? Quae placeat doloribus velit neque cumque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tempora omnis reiciendis in.</p>
+
+    </div>
+    
+
+        
+ </body>
+</html>
+
+<!--
+.col p{
+    width:30%;
+    float: left;
+} 
+.col p:nth-child(4){
+    clear: left;
+}-->
+
+
