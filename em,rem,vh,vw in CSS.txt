@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sapiente fuga eos ratione.</p>
+        <p  class="para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed accusamus adipisci mollitia quas.</p>
+    </div>
+    
+</body>
+</html>
+
+<!--
+/* html{
+    font-size: 20px;
+}
+.box{
+    font-size: 1.5em;  
+}
+.para1{
+    font-size: 2em;   em is takeit in parent ralative
+}
+.para2{
+    font-size: 2rem;    the  best  rem is take it in root ralative
+} 
+*/
+.box{
+    width: 50vw;  /* width-min=50vmin compare to height and width   who is low  measure it will take this */
+    height: 50vh;   /*  width-max=5vmax  same as  min and max*/    
+    border: 2px solid black;
+   /* padding: 2vh;*/
+
+  
+}
+-->
